@@ -1,6 +1,7 @@
 connection: "bigquery_public_data_looker"
 
 # include all the views
+#deploychange
 include: "/views/*.view"
 include: "/z_tests/*.lkml"
 include: "/**/*.dashboard"
